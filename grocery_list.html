@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Grocery List</title>
+
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+    
+        <link rel = "stylesheet" href="grocery_list.css"/>
+    </head>
+    
+    <body>
+        <!-- Placement of the Form -->
+        <section class="section-center">
+            <!-- Grocery Form that is shown to user -->
+            <form class="grocery-form">
+                <!-- Alerts to user -->
+                <p class="alert"></p>
+                <h3>Grocery List</h3>
+                <!-- Controls inputs into form -->
+                <div class="form-control">
+                    <input type="text" id="grocery" placeholder="e.g. fruits" />
+                    <!-- Submit Button -->
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+            <!-- Container for grocery list -->
+            <div class="grocery-container">
+                <!-- Actual list: Going to be dynamically created -->
+                <div class="grocery-list"></div>
+                <!-- Clear Button -->
+                <button type="button" class="clear-btn"> Clear Items </button>
+            </div>
+        </section>
+        <script src="grocery_list.js"></script>
+    </body>
+</html>
