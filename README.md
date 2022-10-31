@@ -6,7 +6,8 @@ __Ryan's Branch__
 2. Still need to work with front-end to integrate classes & such
 3. So many methods and properties...
 
-`function head_empty = (tired, work) => {
+```
+function head_empty = (tired, work) => {
     if (tired || work >= 0.5) {
         return true;
     }
@@ -14,9 +15,10 @@ __Ryan's Branch__
     if (!tired || work < 0.5) {
         return false;
     }
-}`
+}
 
-`TEST(Brain, head_empty) {
+TEST(Brain, head_empty) {
     ASSERT_EQ(true, head_empty(true, 0.6));
-}`
+}
+```
 ---
