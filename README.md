@@ -1,6 +1,6 @@
 __Ryan's Branch__
 
-# Video Source [title](https://youtu.be/3PHXvlpOkf4?t=23492)
+# [Video Source](https://youtu.be/3PHXvlpOkf4?t=23492)
 
 1. Likely not the best way of doing this
 2. Still need to work with front-end to integrate classes & such
