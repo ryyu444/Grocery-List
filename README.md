@@ -14,10 +14,9 @@ __Ryan's Branch__
     if (!tired || work < 0.5) {
         return false;
     }
-}
+}`
 
-TEST(Brain, head_empty) {
+`TEST(Brain, head_empty) {
     ASSERT_EQ(true, head_empty(true, 0.6));
-}
-`
+}`
 ---
